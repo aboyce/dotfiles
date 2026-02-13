@@ -9,8 +9,6 @@
 
 ### Chocolatey
 
-Keeping up to Date
-
 ```bash
 
 # Keep chocolately up to date
@@ -40,10 +38,20 @@ choco install faststone-image-viewer
 
 # Update all
 choco upgrade all
+```
+
+### WSL
+
+On Windows
+
+```bash
+wsl --update
+wsl --list --online
+wsl --install FedoraLinux-**
 
 ```
 
-## Installation
+## Installation - Legacy
 
 How to install:
 
