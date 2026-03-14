@@ -7,37 +7,67 @@
 - ChatGPT
 - Windows App
 
-### Chocolatey
+### Chocolatey / Winget
 
 ```bash
-
 # Keep chocolately up to date
 choco upgrade chocolatey
 
 # Install - Everyday
-choco install brave
-choco install spotify
-choco install signal
+winget install -e --id Brave.Brave
+# choco install brave
+
+winget install -e --id Spotify.Spotify
+# choco install spotify
+
+winget install -e --id WhatsApp.WhatsApp
+winget install -e --id OpenWhisperSystems.Signal
+# choco install signal
 
 # Install - Windows Utils
-choco install wiztree
-choco install powertoys
-choco install logioptionsplus
-choco install virtualbox
+winget install -e --id AntibodySoftware.WizTree
+# choco install wiztree
+
+winget install -e --id Microsoft.PowerToys
+# choco install powertoys
+
+winget install -e --id Logitech.OptionsPlus
+# choco install logioptionsplus
+
+winget install -e --id Oracle.VirtualBox
+# choco install virtualbox
+
+winget install "Windows App" -s msstore
+
 
 # Install - Development
-choco install wsl2
-choco install git
-choco install mobaxterm
+wsl --install
+
+winget install -e --id Git.Git
+# choco install git
+
+winget install -e --id Mobatek.MobaXterm
+# choco install mobaxterm
+
+winget install -e --id OpenJS.NodeJS.LTS
 choco install nodejs-lts
+
 choco install vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
 
+# AI
+winget install ChatGPT -s msstore
+winget install Codex -s msstore
+
 # Install - Photography
-choco install gimp
-choco install faststone-image-viewer
+winget install -e --id GIMP.GIMP
+# choco install gimp
+
+winget install -e --id FastStone.Viewer
+# choco install faststone-image-viewer
 
 # Update all
 choco upgrade all
+winget upgrade --all
 ```
 
 ### WSL
