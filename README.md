@@ -40,7 +40,10 @@ winget install -e --id OpenJS.NodeJS.LTS # choco install nodejs-lts
 
 winget install -e --id Microsoft.VisualStudioCode # choco install vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
 
-# AI
+# AI - Anthropic
+winget install -e --id Anthropic.Claude
+
+# AI - OpenAI
 winget install ChatGPT -s msstore
 winget install Codex -s msstore
 
