@@ -11,6 +11,7 @@ npm install -g @openai/codex
 
 # Mobile - Expo
 npm install -g eas-cli
+eas login
 
 # Update All
 npm ls -g
