@@ -4,7 +4,7 @@
 
 ```bash
 # AI - Anthropic
-npm install -g @openai/codex
+npm install -g @anthropic-ai/claude-code
 
 # AI - OpenAI
 npm install -g @openai/codex
