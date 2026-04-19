@@ -48,6 +48,7 @@ winget install -e --id Brave.Brave # choco install brave
 winget install -e --id Spotify.Spotify # choco install spotify
 winget install -e --id WhatsApp.WhatsApp
 winget install -e --id OpenWhisperSystems.Signal # choco install signal
+winget install -e --id Obsidian.Obsidian
 
 # Windows Utils
 winget install -e --id AntibodySoftware.WizTree # choco install wiztree
