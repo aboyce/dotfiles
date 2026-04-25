@@ -3,11 +3,11 @@
 ## Linux Software
 
 ```bash
-# AI - Anthropic
+# AI - Anthropic - CLI
 npm install -g @anthropic-ai/claude-code
 
 # AI - OpenAI
-npm install -g @openai/codex
+brew install codex
 
 # Mobile - Expo
 npm install -g eas-cli
