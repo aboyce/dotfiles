@@ -46,7 +46,7 @@ PS1="[ADM] \[\e[32m\]\w \[\e[38;5;250m\]\[\e[38;5;245m\]\$(parse_git_default_bra
 # Everyday
 winget install -e --id Brave.Brave # choco install brave
 winget install -e --id Spotify.Spotify # choco install spotify
-winget install "WhatsApp" -s msstore
+winget install WhatsApp -s msstore
 winget install -e --id OpenWhisperSystems.Signal # choco install signal
 winget install -e --id Obsidian.Obsidian
 
