@@ -46,7 +46,7 @@ PS1="[ADM] \[\e[32m\]\w \[\e[38;5;250m\]\[\e[38;5;245m\]\$(parse_git_default_bra
 # Everyday
 winget install -e --id Brave.Brave # choco install brave
 winget install -e --id Spotify.Spotify # choco install spotify
-winget install -e --id WhatsApp.WhatsApp
+winget install "WhatsApp" -s msstore
 winget install -e --id OpenWhisperSystems.Signal # choco install signal
 winget install -e --id Obsidian.Obsidian
 
@@ -57,7 +57,6 @@ winget install -e --id Microsoft.PowerToys # choco install powertoys
 winget install -e --id Logitech.OptionsPlus # choco install logioptionsplus
 winget install -e --id Oracle.VirtualBox # choco install virtualbox
 winget install "Windows App" -s msstore
-winget install -e --id Malwarebytes.Malwarebytes
 winget install -e --id Google.Drive
 
 # Development
