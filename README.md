@@ -37,35 +37,31 @@ PS1="[ADM] \[\e[32m\]\w \[\e[38;5;250m\]\[\e[38;5;245m\]\$(parse_git_default_bra
 
 ## Windows Software
 
-### Chocolatey / Winget
+### Winget
 
 [winget](https://winget.run/)
-[chocolatey](https://community.chocolatey.org/packages)
 
 ```bash
 # Everyday
-winget install -e --id Brave.Brave # choco install brave
-winget install -e --id Spotify.Spotify # choco install spotify
+winget install -e --id Brave.Brave
+winget install -e --id Google.Chrome
+winget install -e --id Spotify.Spotify
 winget install WhatsApp -s msstore
-winget install -e --id OpenWhisperSystems.Signal # choco install signal
+winget install -e --id OpenWhisperSystems.Signal
 winget install -e --id Obsidian.Obsidian
 
 # Windows Utils
-winget install -e --id AntibodySoftware.WizTree # choco install wiztree
+winget install -e --id AntibodySoftware.WizTree
 winget install -e --id Mythicsoft.AgentRansack
-winget install -e --id Microsoft.PowerToys # choco install powertoys
-winget install -e --id Logitech.OptionsPlus # choco install logioptionsplus
-winget install -e --id Oracle.VirtualBox # choco install virtualbox
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Logitech.OptionsPlus
+winget install -e --id Oracle.VirtualBox
 winget install "Windows App" -s msstore
 winget install -e --id Google.Drive
 
 # Development
-winget install -e --id Mobatek.MobaXterm # choco install mobaxterm
-
-winget install -e --id Microsoft.VisualStudioCode # choco install vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
-
-# winget install -e --id Git.Git # choco install git
-# winget install -e --id OpenJS.NodeJS.LTS # choco install nodejs-lts
+winget install -e --id Mobatek.MobaXterm
+winget install -e --id Microsoft.VisualStudioCode
 
 # AI - Anthropic
 winget install -e --id Anthropic.Claude
@@ -75,11 +71,10 @@ winget install ChatGPT -s msstore
 winget install Codex -s msstore
 
 # Install - Photography
-winget install -e --id GIMP.GIMP # choco install gimp
-winget install -e --id FastStone.Viewer # choco install faststone-image-viewer
+winget install -e --id GIMP.GIMP
+winget install -e --id FastStone.Viewer
 
 # Update all
-choco upgrade all
 winget upgrade --all
 ```
 
