@@ -58,6 +58,7 @@ winget install -e --id Logitech.OptionsPlus
 winget install -e --id Oracle.VirtualBox
 winget install "Windows App" -s msstore
 winget install -e --id Google.Drive
+winget install -e --id RaspberryPiFoundation.RaspberryPiImager
 
 # Development
 winget install -e --id Mobatek.MobaXterm
@@ -70,9 +71,12 @@ winget install -e --id Anthropic.Claude
 winget install ChatGPT -s msstore
 winget install Codex -s msstore
 
-# Install - Photography
+# Photography
 winget install -e --id GIMP.GIMP
 winget install -e --id FastStone.Viewer
+
+# 3D Printing
+winget install -e --id Ultimaker.Cura
 
 # Update all
 winget upgrade --all
