@@ -77,6 +77,7 @@ winget install -e --id FastStone.Viewer
 
 # 3D Printing
 winget install -e --id Ultimaker.Cura
+winget install -e --id SoftFever.OrcaSlicer
 
 # Update all
 winget upgrade --all
